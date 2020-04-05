@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sidharth1993/video-fe/static/css/main.f6771e54.chunk.css",
+    "main.js": "/sidharth1993/video-fe/static/js/main.254e8153.chunk.js",
+    "main.js.map": "/sidharth1993/video-fe/static/js/main.254e8153.chunk.js.map",
+    "runtime-main.js": "/sidharth1993/video-fe/static/js/runtime-main.b6eb43e7.js",
+    "runtime-main.js.map": "/sidharth1993/video-fe/static/js/runtime-main.b6eb43e7.js.map",
+    "static/js/2.f273f53c.chunk.js": "/sidharth1993/video-fe/static/js/2.f273f53c.chunk.js",
+    "static/js/2.f273f53c.chunk.js.map": "/sidharth1993/video-fe/static/js/2.f273f53c.chunk.js.map",
+    "index.html": "/sidharth1993/video-fe/index.html",
+    "precache-manifest.9afe031c474bacbfc61e478adf046612.js": "/sidharth1993/video-fe/precache-manifest.9afe031c474bacbfc61e478adf046612.js",
+    "service-worker.js": "/sidharth1993/video-fe/service-worker.js",
+    "static/css/main.f6771e54.chunk.css.map": "/sidharth1993/video-fe/static/css/main.f6771e54.chunk.css.map",
+    "static/js/2.f273f53c.chunk.js.LICENSE.txt": "/sidharth1993/video-fe/static/js/2.f273f53c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6eb43e7.js",
+    "static/js/2.f273f53c.chunk.js",
+    "static/css/main.f6771e54.chunk.css",
+    "static/js/main.254e8153.chunk.js"
+  ]
+}
