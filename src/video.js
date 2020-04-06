@@ -19,7 +19,13 @@ const Video = ()=>{
             let mId = queryParams[0].slice(queryParams[0].indexOf('=')+1,queryParams[0].length);
             let usr = queryParams[1].slice(queryParams[1].indexOf('=')+1,queryParams[1].length);
             //connection = new WebSocket(`ws://127.0.0.1:4000/?mid=${mId}&user=${usr}`);
-            connection = new WebSocket(`ws://video-socket-be.herokuapp.com/?mid=${mId}&user=${usr}`);
+            connection = new WebSocket(`wss://video-socket-be.herokuapp.com/?mid=${mId}&user=${usr}`);
+        }
+    }
+
+    const endCall = ()=>{
+        if(connection){
+            connection.close();
         }
     }
 
@@ -66,6 +72,7 @@ const Video = ()=>{
         <>
             <video ref={videoPlayer} autoPlay ></video>
             <img ref={displayPlayer}></img>
+            <button onClick={endCall} >End Call</button>
         </>
     );    
       
